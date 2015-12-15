@@ -1,6 +1,7 @@
 {
-  "name": "grunt-babel",
+  "name": "babel-with-grunt",
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "load-grunt-tasks": "^3.3.0"
   }
 }
