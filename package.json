@@ -1,3 +1,6 @@
 {
-  "name": "grunt-babel"
+  "name": "grunt-babel",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
