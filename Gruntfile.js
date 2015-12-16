@@ -9,6 +9,7 @@ module.exports = function(grunt) {
   });
 
   grunt.initConfig({
+    clean: ['dist'],
     babel: {
       options: {
         sourceMap: true,
@@ -22,6 +23,6 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['babel']);
+  grunt.registerTask('default', ['clean', 'babel']);
 
 };
