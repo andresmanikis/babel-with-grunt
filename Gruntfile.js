@@ -10,6 +10,12 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     clean: ['dist'],
+
+    watch: {
+      files: ['src/**/*.js'],
+      tasks: ['default']
+    },
+
     babel: {
       options: {
         sourceMap: true,
@@ -21,6 +27,7 @@ module.exports = function(grunt) {
         }
       }
     }
+
   });
 
   grunt.registerTask('default', ['clean', 'babel']);
