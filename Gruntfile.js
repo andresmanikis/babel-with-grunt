@@ -30,6 +30,7 @@ module.exports = function(grunt) {
 
   });
 
+  grunt.registerTask('devmode', ['default', 'watch']);
   grunt.registerTask('default', ['clean', 'babel']);
 
 };
